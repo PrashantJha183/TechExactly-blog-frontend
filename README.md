@@ -109,7 +109,14 @@ VITE_API_BASE_URL=http://localhost:5000/api/v1
 
 ---
 
-## Installation & Running
+## Installation Instructions
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/PrashantJha183/TechExactly-blog-frontend
+cd TechExactly-blog-frontend
+```
 
 ```bash
 npm install
@@ -168,6 +175,13 @@ This frontend expects:
 - Secure authentication handling
 
 ---
+
+## Admin Login credential
+
+- Email: jhap5754@gmail.com
+- Password: Prashant@183
+
+----
 
 ## Author
 
