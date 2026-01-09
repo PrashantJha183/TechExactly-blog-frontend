@@ -1,0 +1,64 @@
+
+# 📝 MERN Blog Application – Frontend (React)
+
+This repository contains the **frontend (React.js)** of a full-stack **MERN Blog Application** with authentication, role-based access control, blog posts, comments, and an admin panel.
+
+---
+
+## 🚀 Features
+
+### 🔐 User Authentication
+- Registration, Login, Logout
+- JWT-based authentication
+- Persistent login
+- Protected routes
+- Password show/hide toggle
+
+### 👥 Roles & Permissions
+- **User**: manage own posts & comments
+- **Admin**: manage users, posts, comments
+
+### 📝 Posts
+- CRUD operations
+- Newest → Oldest sorting
+- Soft delete support
+- Author & timestamps
+
+### 💬 Comments
+- CRUD operations
+- Owner-based permissions
+- Admin moderation
+
+### 🛠 Admin Panel
+- Dashboard with stats
+- Manage users, posts, comments
+- Fully protected routes
+
+---
+
+## 🧱 Tech Stack
+- React.js
+- React Router
+- Context API
+- Axios
+- Tailwind CSS
+
+---
+
+## ⚙️ Environment Setup
+
+Create `.env` file:
+
+VITE_API_BASE_URL=http://localhost:5000/api/v1
+
+---
+
+## 📦 Installation
+
+npm install
+npm run dev
+
+---
+
+## 👨‍💻 Author
+Prashant Jha
